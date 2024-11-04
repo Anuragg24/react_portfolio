@@ -1,0 +1,24 @@
+.logo-container {
+    position: absolute;
+    top: 140px; /* Adjust this value to position the logo */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1; /* Ensure the logo is above other content */
+    width: 100px; /* Set width for the circular container */
+    height: 100px; /* Set height to match the width for a perfect circle */
+    overflow: hidden; /* Hide overflow to create a circular shape */
+    border-radius: 50%; /* Make the container circular */
+    border: 1px solid white; /* Optional: add a border around the circle */
+    box-shadow: 0 .5rem 1rem #0000004d;
+  }
+  
+  .logo-image {
+    width: 100px; /* Adjust width as necessary */
+    height: auto;
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  .card-image {
+    height: 200px; /* Adjust height as necessary */
+    object-fit: cover; /* This will ensure the image covers the area without distortion */
+    width: 100%; /* Ensure it spans the full width of the card */
+  }
